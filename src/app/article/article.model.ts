@@ -4,8 +4,8 @@ export class Article{
   link:string;
 
   constructor(title:string, link:string, votes?:number) { 
-    this.title = "Angular";
-    this.link ="http://angular.io";
+    this.title = title;
+    this.link = link;
     this.votes = votes-votes || 10;
   }
 
